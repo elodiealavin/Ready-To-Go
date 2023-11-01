@@ -1,0 +1,59 @@
+header {
+  border: 1px solid blue;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+header h1 {
+  font-size: 30px;
+}
+header i {
+  font-size: 30px;
+  padding: 20px;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 100px;
+}
+
+button {
+  width: 120px;
+  height: 70px;
+  margin-bottom: 20px;
+  color: #5c48d3;
+  font-size: 25px;
+}
+
+.ON > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+.OFF > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 20px;
+  background-color: #5c48d3;
+  color: white;
+}
+
+.no-way {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.no-way > button {
+  background-color: #d34848;
+  color: white;
+}
